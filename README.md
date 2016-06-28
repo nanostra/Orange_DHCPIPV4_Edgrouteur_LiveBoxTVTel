@@ -47,7 +47,7 @@ Mon Lan local (SWITCH) est connecté sur le port  ETH7 du routeur... si vous ave
 	
 	ETH7 --> VERS RESEAU LOCAL (VERS SWITCH) --> 192.168.10.1 + SERVEUR DHCP
 
-	Remarque concernant la LIVEBOX : J'ai fait un Reset de la Livebox, box en config par défaut... attention il faut ses identifiants fti/ et password aprà¨s reset... Par défaut dans le config de la LIVEBOX, celle-ci est en 192.168.1.1 avec DHCP activé. Ne rien toucher et laisser tel quel.
+Remarque concernant la LIVEBOX : J'ai fait un Reset de la Livebox, box en config par défaut... attention il faut ses identifiants fti/ et password aprà¨s reset... Par défaut dans le config de la LIVEBOX, celle-ci est en 192.168.1.1 avec DHCP activé. Ne rien toucher et laisser tel quel.
 
 Les outils
 ----------
