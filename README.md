@@ -61,12 +61,10 @@ Remarques importantes :
 > personnalisations bancales ou encore un routeur mal cà¢blé aprà¨s
 > reboot, ou encore un save oublié aprà¨s le commit (donc retour à  la
 > précédente config aprà¨s reboot).
-> 
- **Je n'assure pas de support et retire toute responsabilité des dommages que pourraient engendrés ce tuto. A vos risques et périls.**
 
-	Le plus simple et de suivre le tuto avec le minimum requis de personnalisations, tester et quand tout est ok, personnaliser, adapter.
-	
-	Avant de charger le fichier de config, faire un compare pour voir les modifications réalisées et s'assurer que tout semble OK.
+ **Je n'assure pas de support et retire toute responsabilité des dommages que pourraient engendrés ce tuto. A vos risques et périls.**
+Le plus simple et de suivre le tuto avec le minimum requis de personnalisations, tester et quand tout est ok, personnaliser, adapter.
+Avant de charger le fichier de config, faire un compare pour voir les modifications réalisées et s'assurer que tout semble OK.
 
 1. Activer le user root
 -----------------------
