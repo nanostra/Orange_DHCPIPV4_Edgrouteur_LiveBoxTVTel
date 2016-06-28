@@ -9,9 +9,8 @@ ARCHITECTURE ORANGE DHCP / IPV4
 
 **POUR VOUS LANCER DANS L'AVENTURE, UN MINIMUM DE CONNAISSANCES UNIX / RESEAU EST NECESSAIRE...SI CE N'EST PAS VOTRE CAS JE VOUS DECONSEILLE L'EXPERIENCE**
 
---> TV / TELEPHONE / VOD ET TELE A LA DEMANDE OKKKKKKKK
---> ATTENTION VERSION POUR FIRMWARE 1.8.5
---> TOUS LES FICHIERS DANS ZIP JOINT**
+- TV / TELEPHONE / VOD ET TELE A LA DEMANDE OKKKKKKKK
+- ATTENTION VERSION POUR FIRMWARE 1.8.5
 
 **Bonjour à  tous,**
 
@@ -72,7 +71,7 @@ Remarques importantes :
 1. Activer le user root
 -----------------------
 
-Pour se faciliter la vie dans les différentes étapes, activer le user "root" pour les accà¨s SSH (putty) et SFTP (filezilla)
+Pour se faciliter la vie dans les différentes étapes, activer le user "root" pour les accès SSH (putty) et SFTP (filezilla)
 
 --> Le user root n'est pas activé par défaut pour des raisons de sécurité
 
