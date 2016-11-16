@@ -127,7 +127,7 @@ interfaces {
                 client-option "send vendor-class-identifier &quot;sagem&quot;;"
                 client-option "send user-class &quot;\053FSVDSL_livebox.Internet.softathome.Livebox3&quot;;"
                 client-option "send rfc3118-auth 00:00:00:00:00:00:00:00:00:00:00:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx;"
-                client-option "request dhcp-lease-time, dhcp-renewal-time, dhcp-rebinding-time, domain-search, rfc3118-auth, SIP;"
+                client-option "request dhcp-lease-time, dhcp-renewal-time, dhcp-rebinding-time, domain-search, rfc3118-auth;"
                 default-route update
                 default-route-distance 210
                 name-server update
