@@ -206,6 +206,7 @@ service {
         disabled false
         global-parameters "option rfc3118-auth code 90 = string;"
         global-parameters "option SIP code 120 = string;"
+        global-parameters "option Vendor-specific code 125 = string;"
         hostfile-update disable
         shared-network-name LAN {
             authoritative disable
@@ -233,6 +234,7 @@ service {
                 }
                 subnet-parameters "option rfc3118-auth 00:00:00:00:00:00:00:00:00:00:00:64:68:63:70:6c:69:76:65:62:6f:78:66:72:32:35:30;"
                 subnet-parameters "option SIP 00:06:73:62:63:74:33:67:03:41:55:42:06:61:63:63:65:73:73:11:6f:72:61:6e:67:65:2d:6d:75:6c:74:69:6d:65:64:69:61:03:6e:65:74:00;"
+                subnet-parameters "option Vendor-specific 00:00:05:58:0c:01:0a:00:00:00:00:00:ff:ff:ff:ff:ff;"                        
             }
         }
     }
