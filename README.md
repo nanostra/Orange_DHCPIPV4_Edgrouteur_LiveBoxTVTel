@@ -17,7 +17,7 @@ ARCHITECTURE ORANGE DHCP / IPV4
 
 Dans la configuration proposée, le trafic internet est géré par un ubiquiti Edgerouter ERPro-8 ( Firmware 1.10.3) auquel **est relié la Livebox pour la TV et le téléphone.** Fonctionne également avec nouvelle Livebox V4 et TV en V4\. Tous les appareils réseau sont connectés à  un switch Ubiquiti EdgeSwitch 24 (avec 2 ports SFP) relié au routeur (sauf la LIVEBOX qui est connectée au routeur en eth0)...
 
-**SCHEMAS EN PJ (VOIR A LA FIN DU MESSAGE)**
+**SCHEMAS ATTACHES AU PROJET**
 
 Tout est opérationnel... débits > 940 Mb/s en download et > 250 Mb/s en upload (aucune perte)
 
@@ -57,9 +57,9 @@ Remarques importantes :
 -----------------------
 > Chez les divers téméraires qui ont tentés l'aventure, les KO sont liés
 > à  des erreurs de manips, des ratés de copier/coller, des
-> personnalisations bancales ou encore un routeur mal cà¢blé aprà¨s
-> reboot, ou encore un save oublié aprà¨s le commit (donc retour à  la
-> précédente config aprà¨s reboot).
+> personnalisations bancales ou encore un routeur mal câblé aprés
+> reboot, ou encore un save oublié aprés le commit (donc retour à  la
+> précédente config aprés reboot).
 
  **Je n'assure pas de support et retire toute responsabilité des dommages que pourraient engendrés ce tuto. A vos risques et périls.**
 Le plus simple et de suivre le tuto avec le minimum requis de personnalisations, tester et quand tout est ok, personnaliser, adapter.
@@ -182,7 +182,7 @@ Faire tous les branchements, éteindre l'ONT, LIVEBOX et les box TV + Switchs**<
 
 Tout fonctionne enfin logiquement... !!!
 
-Si vous rencontrez des problà¨mes, commencez par faire un diff entre mon config.boot et le votre modifié...
+Si vous rencontrez des problèmes, commencez par faire un diff entre mon config.boot et le votre modifié...
 
 N'en faites pas trop à  la fois... partez de cette base, vous verrez les améliorations ensuite...
 
