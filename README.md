@@ -19,9 +19,7 @@ Dans la configuration proposée, le trafic internet est géré par un ubiquiti E
 
 **SCHEMAS EN PJ (VOIR A LA FIN DU MESSAGE)**
 
-Tout est opérationnel... débits > 920 Mb/s en download et > 240 Mb/s en upload (aucune perte)
-
-[![](http://www.speedtest.net/result/5274197024.png)](http://www.speedtest.net/my-result/5274197024)
+Tout est opérationnel... débits > 940 Mb/s en download et > 250 Mb/s en upload (aucune perte)
 
 A noter, en plein Speedtest, on ne dépasse pas les 10% de CPU et Mémoire... voir copie d'écran.
 
