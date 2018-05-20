@@ -1,9 +1,9 @@
 # Orange_DHCPIPV4_Edgrouteur_LiveBoxTVTel
 
-**TUTO - Routeur Ubiquiti pour Internet 
-       + Livebox pour TV + Téléphone
+**TUTO - Routeur Ubiquiti pour Internet** 
+**     + Livebox pour TV + Téléphone**
 
---> FIRMWARE 1.10.3 - LIVEBOX V4**
+**--> FIRMWARE 1.10.3 - LIVEBOX V4**
 ====================================================================
 
 Edgerouter ERPro-8 pour Internet
