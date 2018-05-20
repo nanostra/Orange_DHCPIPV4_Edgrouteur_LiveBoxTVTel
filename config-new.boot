@@ -161,7 +161,7 @@ interfaces {
                 bridge br1
             }
             description "eth1.840 (ZAPPING + CANAL 1)"
-            egress-qos "0:5 1:5 2:5 3:5 5:5 6:5 7:5"
+            egress-qos "0:5 1:5 2:5 3:5 4:5 5:5 6:5 7:5"
         }
     }
     ethernet eth2 {
