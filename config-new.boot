@@ -130,9 +130,10 @@ interfaces {
                 client-option "request dhcp-lease-time, dhcp-renewal-time, dhcp-rebinding-time, domain-search, rfc3118-auth;"
                 default-route update
                 default-route-distance 210
+                global-option "option rfc3118-auth code 90 = string;"
                 name-server update
             }
-            egress-qos "0:0 1:1 2:2 3:3 4:4 5:5 6:6 7:7"
+            egress-qos "0:0 1:0 2:0 3:0 4:0 5:0 6:6 7:0"
             firewall {
                 in {
                     name WAN_IN
@@ -207,6 +208,7 @@ service {
         global-parameters "option rfc3118-auth code 90 = string;"
         global-parameters "option SIP code 120 = string;"
         global-parameters "option Vendor-specific code 125 = string;"
+
         hostfile-update disable
         shared-network-name LAN {
             authoritative disable
@@ -234,7 +236,8 @@ service {
                 }
                 subnet-parameters "option rfc3118-auth 00:00:00:00:00:00:00:00:00:00:00:64:68:63:70:6c:69:76:65:62:6f:78:66:72:32:35:30;"
                 subnet-parameters "option SIP 00:06:73:62:63:74:33:67:03:41:55:42:06:61:63:63:65:73:73:11:6f:72:61:6e:67:65:2d:6d:75:6c:74:69:6d:65:64:69:61:03:6e:65:74:00;"
-                subnet-parameters "option Vendor-specific 00:00:05:58:0c:01:0a:00:00:00:00:00:ff:ff:ff:ff:ff;"                        
+                subnet-parameters "option Vendor-specific 00:00:05:58:0c:01:0a:00:00:00:00:00:ff:ff:ff:ff:ff;"
+
             }
         }
     }
@@ -344,6 +347,7 @@ system {
     time-zone Europe/Paris
 }
 
+
 /* Warning: Do not remove the following line. */
-/* === vyatta-config-version: "config-management@1:conntrack@1:cron@1:dhcp-relay@1:dhcp-server@4:firewall@5:ipsec@5:nat@3:qos@1:quagga@2:system@4:ubnt-pptp@1:ubnt-util@1:vrrp@1:webgui@1:webproxy@1:zone-policy@1" === */
-/* Release version: v1.8.5.4884695.160608.1104 */
+/* === vyatta-config-version: "config-management@1:conntrack@1:cron@1:dhcp-relay@1:dhcp-server@4:firewall@5:ipsec@5:nat@3:qos@1:quagga@2:system@4:ubnt-pptp@1:ubnt-udapi-server@1:ubnt-unms@1:ubnt-util@1:vrrp@1:webgui@1:webproxy@1:zone-policy@1" === */
+/* Release version: v1.10.3.5082543.180426.1717 */
