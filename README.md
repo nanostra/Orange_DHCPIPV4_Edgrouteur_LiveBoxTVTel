@@ -15,7 +15,7 @@ ARCHITECTURE ORANGE DHCP / IPV4
 
 **Bonjour à  tous,**
 
-Dans la configuration proposée, le trafic internet est géré par un ubiquiti Edgerouter ERPro-8 ( Firmware 1.8.5) auquel **est relié la Livebox pour la TV et le téléphone.** Fonctionne également avec nouvelle Livebox V4 et TV en V4\. Tous les appareils réseau sont connectés à  un switch Ubiquiti EdgeSwitch 24 (avec 2 ports SFP) relié au routeur (sauf la LIVEBOX qui est connectée au routeur en eth0)...
+Dans la configuration proposée, le trafic internet est géré par un ubiquiti Edgerouter ERPro-8 ( Firmware 1.10.3) auquel **est relié la Livebox pour la TV et le téléphone.** Fonctionne également avec nouvelle Livebox V4 et TV en V4\. Tous les appareils réseau sont connectés à  un switch Ubiquiti EdgeSwitch 24 (avec 2 ports SFP) relié au routeur (sauf la LIVEBOX qui est connectée au routeur en eth0)...
 
 **SCHEMAS EN PJ (VOIR A LA FIN DU MESSAGE)**
 
